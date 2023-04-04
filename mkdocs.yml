@@ -1,0 +1,29 @@
+site_name: Sample Documentation
+site_url: https://github.com/sureshsubbaiah/documentation_sample
+site_description: Repository to generate documentation.
+site_author: Suresh Subbaiah
+theme:
+  name: material
+  features:
+    - content.tabs.link
+    # - navigation.tabs
+
+# Repository info
+repo_name: sureshsubbaiah/documentation_sample
+repo_url: https://github.com/sureshsubbaiah/documentation_sample
+edit_uri: edit/docs/
+
+# page tree
+nav:
+  - Welcome: 'index.md'
+  
+# Configuration
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+plugins:
+  - search
+  - git-revision-date
