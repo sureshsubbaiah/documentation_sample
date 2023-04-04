@@ -1,0 +1,5 @@
+mkdocs
+mkdocs-drawio-exporter
+mkdocs-git-revision-date-plugin
+mkdocs-material
+mkdocs-material-extensions
